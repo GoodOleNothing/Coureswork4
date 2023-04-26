@@ -2,6 +2,7 @@ from main import *
 
 
 def interface():
+    """Функция создания интерфейса для пользователя"""
     print('Приветствую')
     user_input = input('С какой платформы будем смотреть вакансии?(hh или sj): ')
     while user_input != 'hh' and user_input != 'sj':
